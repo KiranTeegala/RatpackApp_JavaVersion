@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartapp.api.test.SmartAppAPITest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-02T14:26:34" hostname="HIUSA69590" time="4.061">
+  <properties/>
+  <testcase name="testGetLevel" classname="com.smartapp.api.test.SmartAppAPITest" time="3.278"/>
+  <testcase name="testSetLevel" classname="com.smartapp.api.test.SmartAppAPITest" time="0.783"/>
+  <system-out><![CDATA[[{"id":"25f814cf-a3c0-4404-ab95-f4502ddf74c4","name":"Switch Level Capability","label":"dimmerswitches[0]"},{"id":"ccd9ec93-786f-4248-9ee0-8f0240a35426","name":"Switch Level Capability","label":"dimmerswitches[2]"},{"id":"e5387ab0-f6dc-48ba-9e2c-dcd48ecb0df1","name":"Switch Level Capability","label":"dimmerswitches[1]"},{"id":"88c2cbc5-bb4e-4bf1-8693-92a4c005a127","name":"Dimmer Switch","label":null}]
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO ratpack.server.RatpackServer - Starting server...
+[Test worker] INFO ratpack.server.RatpackServer - Building registry...
+[Test worker] INFO ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:56788
+[Test worker] INFO ratpack.server.RatpackServer - Starting server...
+[Test worker] INFO ratpack.server.RatpackServer - Building registry...
+[Test worker] INFO ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:56811
+]]></system-err>
+</testsuite>

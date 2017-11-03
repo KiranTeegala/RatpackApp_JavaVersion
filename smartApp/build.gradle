@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.ratpack:ratpack-gradle:1.5.0"
+    }
+}
+
+apply plugin: "io.ratpack.ratpack-java"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    runtime "org.slf4j:slf4j-simple:1.7.25"
+    runtime 'junit:junit:4.12'
+    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
+}
+test {
+    //we want display the following test events
+    testLogging {
+        events "PASSED", "STARTED", "FAILED", "SKIPPED"
+    }
+}
+mainClassName = "com.smartapp.api.Main"
+
+
